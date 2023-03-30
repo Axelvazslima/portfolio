@@ -51,7 +51,7 @@ export default function Home() {
         <div className='pt-20 pb-10 text-center'>
           <h3 className='text-3xl py-1'>Who Am I?</h3>
           <div className='text-md py-2 leading-8 dark:text-white text-gray-800'>
-          <p>My name is Áxel. I am from Brazil and I code web apps like a <span className='text-green-800 cursor-pointer'>To-Do List App</span> and this website.</p>
+          <p>My name is Áxel. I am from Brazil and I code apps like a <span className='text-green-800 cursor-pointer'>To-Do List App</span>, API's on github and this website.</p>
           <p>Everything you see here was coded by me using just JavaScript, ReactJs and NextJs. For the design I worked with CSS, it's Library TailwindCSS and obviously HTML.</p>
           <p>I made the decision to pursue this path when I was 17 and studied hard to get into college. Later, while waiting for my college classes to begin, I decided to take matters into my own hands and started taking online courses and watching YouTube videos to continue learning. Additionally, reading Stack Overflow articles and exploring GitHub repositories proved to be extremely helpful in my learning journey.</p>
           <p>Keep scrolling and later on we are diving into these names more deeply and you know what all these strange names do.</p>
@@ -112,10 +112,10 @@ export default function Home() {
           <p>Since I started learning to code, I have been putting in a lot of work to master this ability.</p>
           <p>So, I decided to compile the most attractive projects in just one place and now you can see my work here.</p>
           <div className='flex justify-center items-center gap-4 py-4 group'>
-          <div className='group-hover:opacity-30 transition hover:!opacity-100 rounded-lg shadow-xl hover:shadow-cyan-600 hover:scale-110 dark:hover:shadow-white p-2'><a href='#top'>
+          <div className='group-hover:opacity-30 transition hover:!opacity-100 rounded-lg shadow-xl hover:shadow-cyan-600 hover:scale-110 dark:hover:shadow-white p-2'><a href='https://github.com/Axelvazslima'>
            <Image src={code} width={64} height={64} />
-           <h1 className='text-xl dark:text-white text-black'>This Website</h1>
-           <p>JavaScript, ReactJs and NextJs</p>
+           <h1 className='text-xl dark:text-white text-black'>GitHub</h1>
+           <p>My code compilation</p>
           </a></div>
           <div className='group-hover:opacity-30 transition hover:!opacity-100 rounded-lg shadow-xl hover:shadow-cyan-600 hover:scale-110 dark:hover:shadow-white p-2'><a href='#top'>
            <Image src={ToDoList} width={64} height={64} />
