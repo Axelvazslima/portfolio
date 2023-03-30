@@ -112,7 +112,7 @@ export default function Home() {
           <p>Since I started learning to code, I have been putting in a lot of work to master this ability.</p>
           <p>So, I decided to compile the most attractive projects in just one place and now you can see my work here.</p>
           <div className='flex justify-center items-center gap-4 py-4 group'>
-          <div className='group-hover:opacity-30 transition hover:!opacity-100 rounded-lg shadow-xl hover:shadow-cyan-600 hover:scale-110 dark:hover:shadow-white p-2'><a href='https://github.com/Axelvazslima'>
+          <div className='group-hover:opacity-30 transition hover:!opacity-100 rounded-lg shadow-xl hover:shadow-cyan-600 hover:scale-110 dark:hover:shadow-white p-2'><a href='https://github.com/Axelvazslima' target="_blank" rel="noopener noreferrer">
            <Image src={code} width={64} height={64} />
            <h1 className='text-xl dark:text-white text-black'>GitHub</h1>
            <p>My code compilation</p>
