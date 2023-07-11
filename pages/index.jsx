@@ -34,7 +34,7 @@ export default function Home() {
        </nav>
        <div className='text-center pt-10 pb-6'>
         <h2 className='py-2 text-5xl text-teal-600 font-medium dark:text-cyan-500'>Áxel Vaz</h2>
-        <h3 className='py-2 text-3xl'>Front-End Developer</h3>
+        <h3 className='py-2 text-3xl'>Developer</h3>
         <p className='dark:text-white text-gray-800 text-md leading-8'>Brazil</p>
        </div>
         <div className='text-5xl gap-16 flex justify-center pb-2 text-gray-600 dark:text-white'>
@@ -51,7 +51,7 @@ export default function Home() {
         <div className='pt-20 pb-10 text-center'>
           <h3 className='text-3xl py-1'>Who Am I?</h3>
           <div className='text-md py-2 leading-8 dark:text-white text-gray-800'>
-          <p>My name is Áxel. I am from Brazil and I code apps like a <span className='text-green-800 cursor-pointer'>To-Do List App</span>, API's on github and this website.</p>
+          <p>My name is Áxel. I am from Brazil and I code apps like API's on github and this website.</p>
           <p>Everything you see here was coded by me using just JavaScript, ReactJs and NextJs. For the design I worked with CSS, it's Library TailwindCSS and obviously HTML.</p>
           <p>I made the decision to pursue this path when I was 17 and studied hard to get into college. Later, while waiting for my college classes to begin, I decided to take matters into my own hands and started taking online courses and watching YouTube videos to continue learning. Additionally, reading Stack Overflow articles and exploring GitHub repositories proved to be extremely helpful in my learning journey.</p>
           <p>Keep scrolling and later on we are diving into these names more deeply and you know what all these strange names do.</p>
@@ -117,11 +117,6 @@ export default function Home() {
            <h1 className='text-xl dark:text-white text-black'>GitHub</h1>
            <p>My code compilation</p>
           </a></div>
-          <div className='group-hover:opacity-30 transition hover:!opacity-100 rounded-lg shadow-xl hover:shadow-cyan-600 hover:scale-110 dark:hover:shadow-white p-2'><a href='#top'>
-           <Image src={ToDoList} width={64} height={64} />
-           <h1 className='text-xl dark:text-white text-black'>To-Do List</h1>
-           <p>JavaScript and ReactJs</p>
-           </a></div>
           </div>
         </div>
       </section>
